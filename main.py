@@ -48,8 +48,3 @@ class gitAndGhCommand():
         #basic.cmd("cls")
         basic.cmd("git status")
         print(f"Successfully committed the remote repository")
-
-gitAndGhCommand().commitAll("Third Commit")
-gitAndGhCommand().addRemoteRepo("https://github.com/hamzah-sajid-code/Github-Test-Work.git")
-gitAndGhCommand().setRemoteBranch("main")
-gitAndGhCommand().commitInRemoteRepository("main")
