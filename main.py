@@ -53,4 +53,4 @@ gitAndGhCommand().commitAll("Second Commit")
 gitAndGhCommand().addRemoteRepo(
     "https://github.com/hamzah-sajid-code/Github-Test-Work.git")
 gitAndGhCommand().addRemoteRepo("main")
-gitAndGhCommand().commitInRemoteRepository()
+gitAndGhCommand().commitInRemoteRepository("main")
