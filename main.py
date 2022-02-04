@@ -42,9 +42,9 @@ class gitAndGhCommand():
         #basic.cmd("cls")
         basic.cmd("git status")
         print(f"Successfully set the remote branch to {branchName}")
-    def commitInRemoteRepository(self):
+    def commitInRemoteRepository(self, branchName):
         #basic.cmd("cls")
-        basic.cmd(f"git push -u origin")
+        basic.cmd(f"git push -u origin {branchName}")
         #basic.cmd("cls")
         basic.cmd("git status")
         print(f"Successfully committed the remote repository")
