@@ -51,4 +51,5 @@ class gitAndGhCommand():
 
 gitAndGhCommand().commitAll("Third Commit")
 gitAndGhCommand().addRemoteRepo("https://github.com/hamzah-sajid-code/Github-Test-Work.git")
+gitAndGhCommand().setRemoteBranch("main")
 gitAndGhCommand().commitInRemoteRepository("main")
