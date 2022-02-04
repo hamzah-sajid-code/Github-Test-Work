@@ -49,4 +49,7 @@ class gitAndGhCommand():
         basic.cmd("git status")
         basic.cmd(f"Successfully committed the remote repository")
 
-gitAndGhCommand().commitAll("Initial commit")
+gitAndGhCommand().commitAll("Second Commit")
+gitAndGhCommand().addRemoteRepo(
+    "https://github.com/hamzah-sajid-code/Github-Test-Work.git")
+gitAndGhCommand().commitInRemoteRepository()
